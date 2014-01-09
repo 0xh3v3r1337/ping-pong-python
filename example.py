@@ -8,3 +8,4 @@ secrets = {"get_balance": "", "create_order": "", "release_order": "", "delete_o
            "read_orders": "", "read_orderexecutions": "", "create_coupon": "", "redeem_coupon": ""}
 test = Vircurex(user, secrets)
 print(test.get_lowest_ask("BTC", "LTC"))
+print(test.get_volume("BTC", "LTC"))
